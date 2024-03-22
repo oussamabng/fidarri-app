@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749295642936",
+    "project_id": "fidarri-4c684",
+    "storage_bucket": "fidarri-4c684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749295642936:android:475bb42cf8f4db3dab39cd",
+        "android_client_info": {
+          "package_name": "com.oussamabng.fiddariTest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDoOrTt5PESQH5Qy2-4PqCaSGaFz1ceZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

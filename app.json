@@ -1,0 +1,68 @@
+{
+  "expo": {
+    "name": "Fidarri",
+    "slug": "fidarri-app",
+    "version": "1.0.7",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "fidarri",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "resizeMode": "cover",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.oussamabng.fiddariTest",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ],
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/fidarri.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "75286b6d-014e-4a42-819f-1aa2f01b190c"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.oussamabng.fiddariTest",
+      "buildNumber": "2"
+    }
+  }
+}

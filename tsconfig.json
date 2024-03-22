@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/*.tsx","components/*.jsx","app/**/*.tsx","components/*.jsx", "components/customImageCarousal.jsx", "components/SBImageItem.jsx", "app/review.tsx", "app/client/freelancer-profile.jsx", "components/keyboardAvoidingViewWrapper.jsx", "components/snackbar.jsx", "components/input.tsx", "app/client/(auth)/profile-details.tsx", "app/freelancer/(tabs)/index.tsx", "app/freelancer/create-schedule.tsx"  ]
+}
